@@ -15,7 +15,7 @@ from model import *
 @app.route('/index')
 @app.route('/main')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', pageName= "Welcome")
 
 
 if __name__ == "__main__":
